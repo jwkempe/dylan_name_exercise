@@ -4,7 +4,7 @@ end
 
 Dylan = Person.new
 
-Dylan.name = 'Dylan Yem'
+Dylan.name = 'Dylan Y'
 Dylan.gender = 'male'
 Dylan.age = 20
 
@@ -14,13 +14,13 @@ puts "Dylan's age is " + Dylan.age.to_s
 
 Ross = Person.new
 
-Ross.name = 'Ross Merrill'
+Ross.name = 'Ross M'
 Ross.gender = 'male'
 Ross.age = 23
 
 John = Person.new
 
-John.name = 'John Kempe'
+John.name = 'John K'
 John.gender = 'male'
 John.age = 25
 
@@ -46,7 +46,7 @@ class Dog
 	end
 end
 
-Leo = Dog.new('Greg Wenhold', 'male', 'Husky')
+Leo = Dog.new('Greg W', 'male', 'Husky')
 
 # breed = 'Husky'
 # this is here because earlier when i initialized the class i did not include breed,
